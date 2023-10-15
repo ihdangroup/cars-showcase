@@ -36,7 +36,7 @@ const SearchBar = ({ setManufaktur, setModel }) => {
             type="text"
             name="model"
             value={searchModel}
-            placeholder="Search Car"
+            placeholder="Search Model"
             onChange={(e) => setSearchModel(e.target.value)}
           />
         </div>

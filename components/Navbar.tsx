@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <header className="absolute z-10 w-full ">
       <nav className="px-10 py-6 lg:px-24 flex justify-between items-center">
-        <Link href="">
-          <Image src="/next.svg" alt="next_logo" width="70" height="40" />
-        </Link>
+        <h2 className="text-lg font-bold italic">
+          Search <span className="text-blue-600">Cars</span>
+        </h2>
         <CustomButton
           title="Sign In"
           customStyle="bg-black text-white py-2 px-4 text-sm rounded"

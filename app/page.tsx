@@ -46,7 +46,7 @@ export default function Home() {
       <Hero />
       <div className="w-full my-12 py-12">
         <h2 className="text-xl font-bold">Category Cars</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Explore out cars you might like</p>
         <div className="flex flex-wrap my-4 w-full">
           <div className="w-full lg:w-1/2">
             <SearchBar setManufaktur={setManufaktur} setModel={setModel} />

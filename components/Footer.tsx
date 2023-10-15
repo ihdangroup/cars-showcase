@@ -8,8 +8,10 @@ const Footer = () => {
     <footer className="bg-[#eaeaea] p-10 lg:px-24">
       <div>
         <div>
-          <Image src="/next.svg" alt="next_logo" width={80} height={50} />
-          <h4 className="my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+          <h2 className="text-lg font-bold italic">
+            Search <span className="text-blue-600">Cars</span>
+          </h2>
+          <h4 className="my-2">Explore out cars you might like</h4>
         </div>
         <div className="flex justify-start flex-wrap">
           {footerLinks.map((footerLink) => (
@@ -25,9 +27,9 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className="text-center mt-6">
+        {/* <div className="text-center mt-6">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur.
-        </div>
+        </div> */}
       </div>
     </footer>
   );
